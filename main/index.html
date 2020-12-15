@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+ <!-- top-header -->
+
+ <div class="container-fluid main-header">
+  <div class="main-header-left"> 
+    <h5 class="cart">Shopping Cart</h5>
+   <a href="#" class="" > <input type="text" placeholder="Street 1,Lane 4,block 12,salmiya..."></a>
+   <a href="#" class="" > <input type="text" placeholder="Search.."></a>
+ <button class="btn styleclr">En<i class="fa fa-sort-desc" aria-hidden="true"></i></button>
+      <img src="image/notification.png" class="notificationimg">
+
+        <button class="btn styleclr"> 12.5 KWD<i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+          <button class="btn styleclr"><i class="fa fa-user-circle" aria-hidden="true"></i> Name</button>
+  </div> 
+
+ 
+
+ </div>
+
+</div>
+<section class="bg-clr">
+  <h5 class="mb-4 items" >Total (<span>3</span> items)</h5>
+
+ 
+<!--Section: Block Content-->
+<section>
+
+  <!--Grid row-->
+  <div class="row">
+
+    <!--Grid column-->
+    <div class="col-lg-8">
+
+      <!-- Card 1-->
+             
+      <div class="card wish-list mb-3 card1" >
+        <button type="button" id="close" onclick="return closewindow();"><i class="fa fa-times closebtn" aria-hidden="true"></i></button>
+        <div class="card-body">
+          <div class="row mb-4">
+            <div class="col-md-5 col-lg-3 col-xl-3">
+              <div class="view zoom overlay z-depth-1 rounded mb-3 mb-md-0">
+                <img class="img-fluid "
+                  src="image/kfc.jpg" alt="Sample"><!-- w-100 -->
+                <a href="#!">
+                
+                </a>
+              </div>
+            </div>
+            <div class="col-md-7 col-lg-9 col-xl-9">
+              <div>
+                <div class="d-flex justify-content-between">
+                  <div>
+                    <h5 style="font-weight: 700;">Super Dinner</h5>
+                    <p class="mb-3 text-muted small kfctext" >KFC Salmiya</p>
+                   
+                   <h6 style="font-weight: 700;">2.350 x 1 = 2.350 KD</h6>
+                  </div>
+                  <div>
+                    <div class="def-number-input number-input safari_only mb-0 w-100">
+
+                      <!-- <div class="main">
+                        <div class="btn">
+                      <button class="minusbtn">-</button>
+                      <button class="mainbtn">ADD TO CART</button>
+                      <button class="plusbtn">+</button>
+                    </div>
+                    </div> -->
+
+                    <div class="center">
+    <p>
+      </p><div class="input-group">
+          <span class="input-group-btn">
+
+              <button type="button" onclick="decrement()"  class="btn btn-default btn-number"  data-type="minus" data-field="quant[1]">
+                  <span class="glyphicon glyphicon-minus"><i class="fa fa-minus" aria-hidden="true"></i></span>
+              </button>
+          </span>
+
+          <input type="number" name="quant[1]" class="form-control input-number" id=demoInput value="1" min="1" max="10">
+          <span class="input-group-btn">
+
+              <button type="button" onclick="increment()" class="btn btn-default btn-number" data-type="plus" data-field="quant[1]">
+                  <span class="glyphicon glyphicon-plus"><i class="fa fa-plus" aria-hidden="true"></i></span>
+              </button>
+          </span>
+      </div>
+    <p></p>
+    <p>
+      </p>
+      </div>
+      <!-- <div class="input-group">
+          <span class="input-group-btn">
+              <button type="button" class="btn btn-danger btn-number"  data-type="minus" data-field="quant[2]">
+                <span class="glyphicon glyphicon-minus"></span>
+              </button>
+          </span>
+          <input type="text" name="quant[2]" class="form-control input-number" value="10" min="1" max="100">
+          <span class="input-group-btn">
+              <button type="button" class="btn btn-success btn-number" data-type="plus" data-field="quant[2]">
+                  <span class="glyphicon glyphicon-plus"></span>
+              </button>
+          </span>
+      </div>
+  <p></p> -->
+
+
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+         <!--  <hr class="mb-4"> -->
+
+           <!-- Card 2-->
+
+         <div class="card wish-list mb-3 card2">
+          <button type="button" id="close" onclick="return closewindow();"><i class="fa fa-times closebtn" aria-hidden="true"></i></button>
+        <div class="card-body">
+          <div class="row mb-4">
+            <div class="col-md-5 col-lg-3 col-xl-3">
+              <div class="view zoom overlay z-depth-1 rounded mb-3 mb-md-0">
+                <img class="img-fluid "
+                  src="image/kfc.jpg" alt="Sample"><!-- w-100 -->
+                <a href="#!">
+                
+                </a>
+              </div>
+            </div>
+            <div class="col-md-7 col-lg-9 col-xl-9">
+              <div>
+                <div class="d-flex justify-content-between">
+                  <div>
+                    <h5 style="font-weight: 700;">Super Dinner</h5>
+                    <p class="mb-3 text-muted text-uppercase small kfctext">KFC Salmiya</p>
+                   
+               <h6 style="font-weight: 700;">2.350 x 1 = 2.350 KD</h6>
+
+               
+                <div class="container">
+                  <div class="row">
+                <div class="col-md-7 promotext">
+                  <h5>Promocode 1</h5>
+                  <hr class="hrstyle">
+               <div class="row"> <i class="fa fa-exclamation-circle iconstyle" aria-hidden="true"></i> <h6>promocode Applied</h6></div>
+               </div>
+
+               <div class="col-md-5">
+                 <button type="button" class=" applybtn" >Apply</button>
+               </div>
+             </div>
+           </div>
+                  </div>
+                  <div>
+                   <div class="def-number-input number-input safari_only mb-0 w-100">
+
+                    <!--   <div class="main">
+                        <div class="btn">
+                      <button class="minusbtn">-</button>
+                      <button class="mainbtn">ADD TO CART</button>
+                      <button class="plusbtn">+</button>
+                    </div>
+                    </div> -->
+
+                                 <div class="center">
+    <p>
+      </p><div class="input-group">
+          <span class="input-group-btn">
+
+              <button type="button" onclick="minusbtn()"  class="btn btn-default btn-number"  data-type="minus" data-field="quant[1]">
+                  <span class="glyphicon glyphicon-minus"><i class="fa fa-minus" aria-hidden="true"></i></span>
+              </button>
+          </span>
+
+          <input type="number" name="quant[1]" class="form-control input-number" id=demoInput1 value="1" min="1" max="10">
+          <span class="input-group-btn">
+
+              <button type="button" onclick="plusbtn()" class="btn btn-default btn-number" data-type="plus" data-field="quant[1]">
+                  <span class="glyphicon glyphicon-plus"><i class="fa fa-plus" aria-hidden="true"></i></span>
+              </button>
+          </span>
+      </div>
+    <p></p>
+    <p>
+      </p>
+      </div>
+
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+       <!--    <hr class="mb-4"> -->
+
+         <!-- Card 3-->
+
+          <div class="card wish-list mb-3 card3">
+            <button type="button" id="close" onclick="return closewindow();"><i class="fa fa-times closebtn" aria-hidden="true"></i></button>
+        <div class="card-body">
+          <div class="row mb-4">
+            <div class="col-md-5 col-lg-3 col-xl-3">
+              <div class="view zoom overlay z-depth-1 rounded mb-3 mb-md-0">
+                <img class="img-fluid "
+                  src="image/kfc.jpg" alt="Sample"><!-- w-100 -->
+                <a href="#!">
+                
+                </a>
+              </div>
+            </div>
+            <div class="col-md-7 col-lg-9 col-xl-9">
+              <div>
+                <div class="d-flex justify-content-between">
+                  <div>
+                    <h5 style="font-weight: 700;">Super Dinner</h5>
+                    <p class="mb-3 text-muted text-uppercase small">KFC Salmiya</p>
+                   
+                    <h6 style="font-weight: 700;">2.350 x 1 = 2.350 KD</h6>
+
+
+
+                <div class="container">
+                  <div class="row">
+                <div class="col-md-7 promotext">
+                  <h5>Promocode 1</h5>
+                  <hr class="hrstylered">
+               <div class="row redpromo"> <i class="fa fa-exclamation-circle iconstylered" aria-hidden="true"></i> <h6>promocode Applied</h6></div>
+               </div>
+
+               <div class="col-md-5">
+                 <button type="button" class=" applybtn" >Apply</button>
+               </div>
+             </div>
+           </div>
+
+
+
+                  </div>
+                  <div>
+                    <div class="def-number-input number-input safari_only mb-0 w-100">
+
+                     <!--  <div class="main">
+                        <div class="btn">
+                      <button class="minusbtn">-</button>
+                      <button class="mainbtn">ADD TO CART</button>
+                      <button class="plusbtn">+</button>
+                    </div>
+                    </div> -->
+
+                                 <div class="center">
+    <p>
+      </p><div class="input-group">
+          <span class="input-group-btn">
+
+               <button type="button" onclick="decrement()"  class="btn btn-default btn-number"  data-type="minus" data-field="quant[1]">
+                  <span class="glyphicon glyphicon-minus"><i class="fa fa-minus" aria-hidden="true"></i></span>
+              </button>
+          </span>
+
+          <input type="number" name="quant[1]" class="form-control input-number" id=demoInput2 value="1" min="1" max="10">
+          <span class="input-group-btn">
+
+              <button type="button" onclick="increment()" class="btn btn-default btn-number" data-type="plus" data-field="quant[1]">
+                  <span class="glyphicon glyphicon-plus"><i class="fa fa-plus" aria-hidden="true"></i></span>
+              </button>
+          </span>
+      </div>
+    <p></p>
+    <p>
+      </p>
+      </div>
+
+                    </div>
+                
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+          <!-- <hr class="mb-4"> -->
+          
+
+        </div>
+      
+      
+
+
+  
+    <!--Grid column-->
+
+    <!--Grid column-->
+    <div class="col-lg-4">
+      <div class="row"><div class="col-md-4"></div> 
+      <div class="col-md-8"><button type="button" class=" button1">Back to shops</button>
+      </div>
+      </div>
+      <!-- Card -->
+      <div class="card leftcard">
+
+        <div class="card-body"  >
+
+          <div class="total">Sub Total (3 Items) : KD 10.32</div>
+
+          <div class="discount">Promo Discount : KD 2.0</div>
+
+          <div class="totalkd" ">Total: KD 8.35</div>
+
+            <button type="button" class="button button2" >Checkout</button>
+
+        </div>
+      </div>
+
+    </div>
+    <!--Grid column-->
+</div>
+  <!--Grid row-->
+
+</section>
+<!--Section: Block Content-->
+
+
+
+
+</section>
+
+<script>
+   function increment() {
+      document.getElementById('demoInput').stepUp();
+   }
+   function decrement() {
+      document.getElementById('demoInput').stepDown();
+   }
+    function minus() {
+      document.getElementById('demoInput1').stepDown();
+   }
+    function plus() {
+      document.getElementById('demoInput1').stepDown();
+   }
+   function minusbtn() {
+      document.getElementById('demoInput2').stepDown();
+   }
+    function plusbtn() {
+      document.getElementById('demoInput2').stepDown();
+   }
+</script>
+
+
+
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+
+
+
+
+
+</body>
+</html>
